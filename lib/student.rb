@@ -54,6 +54,7 @@ class Student
    sql= <<-SQL 
    SELECT * FROM students 
    WHERE grade IS NOT 12 
+   SQL
    
  end 
   
